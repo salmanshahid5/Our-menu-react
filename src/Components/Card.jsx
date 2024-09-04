@@ -5,7 +5,7 @@ function Card({url, name, price, description }) {
           <div className="imgdiv">
             <img
               src={url}
-              alt="Biryani"
+              alt="img"
             />
           </div>
           <div>
@@ -14,8 +14,7 @@ function Card({url, name, price, description }) {
                 <div className="name">{name}</div>
                 <div className="price">{price}</div>
               </div>
-              <div className={description}>
-              </div>
+              <div className='disciption'>{description}</div>
             </div>
           </div>
         </div>

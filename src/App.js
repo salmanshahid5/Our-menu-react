@@ -1,7 +1,7 @@
+import React from "react";
 import Card from "./Components/Card";
 import "./Components/Card.css";
 import Header from "./Components/Header/Header";
-// import "./App.css";
 import { menu } from "./Data/Data";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
           url={item.url}
           name={item.name}
           price={item.price}
-          discription={item.discription}
+          description={item.discription}
         />
       ))}
     </div>
