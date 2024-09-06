@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <div className="foodContainer">
       {menu.map((item, index) => (
         <Card
           key={index}
@@ -17,6 +18,7 @@ function App() {
           description={item.discription}
         />
       ))}
+    </div>
     </div>
   );
 }
