@@ -1,4 +1,4 @@
-function Card({url, name, price, description }) {
+function Card({url, name, stock, description }) {
     return (
       <div className="foodContainer">
         <div className="foodCard">
@@ -12,7 +12,7 @@ function Card({url, name, price, description }) {
             <div className="inner-area">
               <div className="first-column">
                 <div className="name">{name}</div>
-                <div className="price">{price}</div>
+                <div className="price">{stock ?? 'out of stock'}</div>
               </div>
               <div className='disciption'>{description}</div>
             </div>

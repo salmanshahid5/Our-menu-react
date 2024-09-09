@@ -14,7 +14,7 @@ function App() {
           key={index}
           url={item.url}
           name={item.name}
-          price={item.price}
+          stock={item.stock}
           description={item.discription}
         />
       ))}
